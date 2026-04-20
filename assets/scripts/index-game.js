@@ -5976,6 +5976,9 @@ this._escKey.on("down", () => {
         "level_137677336": "diffIcon_00_btn_001",
         "level_116489424": "diffIcon_00_btn_001",
         "level_4284013": "diffIcon_06_btn_001",
+		"level_126588248": "diffIcon_04_btn_001",
+		"level_2952064": "diffIcon_03_btn_001",
+		"level_6508283": "diffIcon_01_btn_001"
       };
       const diffIconKey = levelDifficultyMap[levelId] || "diffIcon_05_btn_001";
       const diffFrame = diffIconKey + ".png";
