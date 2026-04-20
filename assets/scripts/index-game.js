@@ -4928,9 +4928,9 @@ class xs extends Phaser.Scene {
 
       this._creatorOverlayObjects = [overlay, blocker, cornerTL, cornerBL, backBtn];
 
-      const comingSoonLabel = this.add.bitmapText(sw / 2, sh / 2 - 20, "bigFont", "Coming Soon!", 52)
+      const comingSoonLabel = this.add.bitmapText(sw / 2, sh / 2 - 20, "bigFont", "Upload A Level!", 52)
         .setScrollFactor(0).setDepth(104).setOrigin(0.5, 0.5);
-      const creditLabel = this.add.bitmapText(sw / 2, sh / 2 + 44, "bigFont", "- rohanis0000", 30)
+      const creditLabel = this.add.bitmapText(sw / 2, sh / 2 + 44, "bigFont", "Submit an ID to a developer!", 30)
         .setScrollFactor(0).setDepth(104).setOrigin(0.5, 0.5);
       this._creatorOverlayObjects.push(comingSoonLabel, creditLabel);
     };
