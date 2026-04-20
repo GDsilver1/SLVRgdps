@@ -6454,7 +6454,7 @@ this._escKey.on("down", () => {
     const _0x3cdf70b = this.add.bitmapText(xPos, yPos, "goldFont", "Developers:", 40).setOrigin(0.5, 0.5).setScale(0.6);
     this._infoPopup.add(_0x3cdf70b);
     yPos += 35;
-    const _0x3cdf70d = this.add.bitmapText(xPos, yPos, "goldFont", "Ask to join!", 40).setOrigin(0.5, 0.5).setScale(0.6);
+    const _0x3cdf70d = this.add.bitmapText(xPos, yPos, "goldFont", "Evillabraen", 40).setOrigin(0.5, 0.5).setScale(0.6);
     this._infoPopup.add(_0x3cdf70d);
     yPos += 30;
     const _0x97b2a9 = this.add.text(xPos, 463, "© 2026 RobTop Games. All rights reserved.", {
@@ -6493,7 +6493,7 @@ this._escKey.on("down", () => {
     this._expandHitArea(closeBtn, 2);
     this._makeBouncyButton(closeBtn, 0.8, () => this._closeUpdateLogPopup());
 
-    const title = this.add.bitmapText(0, -124, "bigFont", "Update Log", 40).setOrigin(0.5, 0.5);
+    const title = this.add.bitmapText(0, -124, "bigFont", "Welcome!", 40).setOrigin(0.5, 0.5);
     bounceContainer.add(title);
     const scrollAreaW = 420;
     const scrollAreaH = 230;
@@ -6506,21 +6506,21 @@ this._escKey.on("down", () => {
     const contentContainer = this.add.container(0, scrollAreaY - scrollAreaH / 2 + 8);
     bounceContainer.add(contentContainer);
     const updateEntries = [
-      { text: "4/17/26 - Update Log", scale: 0.85, font: "goldFont" },
-      { text: "Cache-manager added to speed up load time.", scale: 0.5 },
-	    { text: "Fixed UFO not disappearing on death.", scale: 0.6 },
-      { text: "Added UFO, Spider and Wave trail.", scale: 0.65 },
-      { text: "(ALL IN BETA, BUGS ARE NORMAL).", scale: 0.65, color: 0xff9944 },
-      { text: "Spider is very broken.", scale: 0.65, color: 0xff6666 },
-      { text: "Several QOL and bug fixes.", scale: 0.65 },
-      { text: "Added all 248 existing cubes.", scale: 0.65 },
-      { text: "Some cubes are broken.", scale: 0.65, color: 0xff6666 },
-      { text: "Headhitting in ship is fixed.", scale: 0.65 },
-      { text: "Added UFO and Wave icons.", scale: 0.65 },
-      { text: "(WAVE ICONS ARE NOT FUNCTIONAL.)", scale: 0.65, color: 0xff6666 },
-      { text: "(IT IS MEANT FOR A FUTURE UPD.)", scale: 0.65, color: 0xff9944 },
-      { text: "Added this dandy lil menu ;)", scale: 0.65 },
-      { text: "- rohanis0000", scale: 0.6, color: 0xaaddff },
+      { text: "Welcome to SLVRgdps!", scale: 0.85, font: "goldFont" },
+      { text: "Hosted By GDsilver", scale: 0.5 },
+	    { text: "Developed By:", scale: 0.6 },
+      { text: "Evillabraen", scale: 0.65 },
+      { text: "(Ask To Join!)", scale: 0.65, color: 0xff9944 },
+      { text: " ", scale: 0.65, color: 0xff6666 },
+      { text: " ", scale: 0.65 },
+      { text: " ", scale: 0.65 },
+      { text: " ", scale: 0.65, color: 0xff6666 },
+      { text: " ", scale: 0.65 },
+      { text: " ", scale: 0.65 },
+      { text: " ", scale: 0.65, color: 0xff6666 },
+      { text: " ", scale: 0.65, color: 0xff9944 },
+      { text: "This is beta! Expect bugs!", scale: 0.65 },
+      { text: "- GDsilver", scale: 0.6, color: 0xaaddff },
     ];
     
     let yPos = 0;
