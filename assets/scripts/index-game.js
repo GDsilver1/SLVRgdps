@@ -5097,7 +5097,7 @@ class xs extends Phaser.Scene {
       const blocker = this.add.zone(sw / 2, sh / 2, sw, sh)
         .setScrollFactor(0).setDepth(101).setInteractive();
 
-      const titleTxt = this.add.bitmapText(sw / 2, 60, "goldFont", "Icon Selector", 32)
+      const titleTxt = this.add.bitmapText(sw / 2, 60, "goldFont", "Player", 32)
         .setOrigin(0.5, 0.5).setScrollFactor(0).setDepth(105);
 
       this._iconOverlayObjects = [overlay, blocker, titleTxt];
