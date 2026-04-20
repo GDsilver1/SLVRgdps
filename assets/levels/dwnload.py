@@ -4,7 +4,7 @@ headers = {
     "User-Agent": ""
 }
 
-levelid = LEVELID
+levelid = 6508283
 data = {
     "levelID": levelid,
     "secret": "Wmfd2893gb7"
