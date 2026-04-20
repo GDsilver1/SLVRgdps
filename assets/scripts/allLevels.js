@@ -172,5 +172,11 @@ window.allLevels = [
 	    "Nine Circles",
 	    "level_4284013",
 	    ["Zobros", "Rukkus"]
+    ],
+	[
+        "phantom_engine",
+	    "Phantom Engine",
+	    "level_126588248",
+	    ["kmr", "DJ-Nate"]
     ]
 ]
