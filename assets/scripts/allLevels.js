@@ -178,5 +178,17 @@ window.allLevels = [
 	    "Phantom Engine",
 	    "level_126588248",
 	    ["kmr", "DJ-Nate"]
+    ],
+	[
+        "dorabaebasic7",
+	    "Dorabaebasic7",
+	    "level_2952064",
+	    ["kmr", "DJ-Nate"]
+    ],
+	[
+        "retray",
+	    "ReTraY",
+	    "level_6508283",
+	    ["kmr", "DJ-Nate"]
     ]
 ]
