@@ -6507,7 +6507,7 @@ this._escKey.on("down", () => {
     bounceContainer.add(contentContainer);
     const updateEntries = [
       { text: "Welcome to SLVRgdps!", scale: 0.85, font: "goldFont" },
-      { text: "Hosted By GDsilver", scale: 0.5 },
+      { text: "Hosted By GDsilver", scale: 7.5 },
 	    { text: "Developed By:", scale: 0.6 },
       { text: "Evillabraen", scale: 0.65 },
       { text: "(Ask To Join!)", scale: 0.65, color: 0xff9944 },
