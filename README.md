@@ -84,6 +84,7 @@ RobTop Games — Geometry Dash
 # Community Contributors:
 * Evillabraen
 * Breadmod developers
+* Lochacho/kullii
 
 # Disclaimer
 This is an unofficial fan‑made project.
