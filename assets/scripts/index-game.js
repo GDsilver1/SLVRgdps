@@ -6521,7 +6521,7 @@ this._escKey.on("down", () => {
       { text: " ", scale: 0.65 },
       { text: " ", scale: 0.65 },
       { text: " ", scale: 0.65, color: 0xff6666 },
-      { text: " ", scale: 0.65, color: 0xff9944 },
+      { text: "UPDcode1", scale: 0.3, color: 0xff9944 },
       { text: "This is beta! Expect bugs!", scale: 0.65 },
       { text: "- GDsilver", scale: 0.6, color: 0xaaddff },
     ];
