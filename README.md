@@ -36,6 +36,11 @@ This project is a modification of the public Geometry Dash web version (geometry
 
 ### Clone the repository
 
-```bash
+Local testing
+You can open index.html directly, but some browsers block local file access.
+Using a small local server is easier:
+
+npx http-server .
+
 git clone https://github.com/yourusername/slvr-gdps
 cd slvr-gdps
