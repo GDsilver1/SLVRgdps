@@ -42,5 +42,52 @@ Using a small local server is easier:
 
 npx http-server .
 
+Then Open:
+
+http://localhost:8080
+
+# Project Structure
+
+/assets        → textures, icons, sounds
+/scripts       → game logic, rendering, UI
+/levels        → optional custom level data
+index.html     → main entry point
+config.js      → server URLs + settings
+
+Customization
+You can modify:
+
+config.js — server endpoints, version strings, toggles
+
+assets/ — replace textures, icons, sounds
+
+scripts/ — gameplay logic, UI, menus, etc.
+
+BreadMod’s structure is mostly preserved, so if you’ve modded that before, this will feel familiar.
+
+Contributing
+Fork the repository
+
+Make your changes
+
+Submit a pull request
+
+Bug reports and suggestions are welcome.
+
+Credits
+SLVR GDPS — modifications and web‑port adjustments
+
+BreadMod — original web port foundation
+
+RobTop Games — Geometry Dash
+
+# Community Contributors:
+* Evillabraen
+* Breadmod developers
+
+# Disclaimer
+This is an unofficial fan‑made project.
+All Geometry Dash assets belong to their respective owners.
+This project is for educational and experimental use.
 git clone https://github.com/yourusername/slvr-gdps
 cd slvr-gdps
