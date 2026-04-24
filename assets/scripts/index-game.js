@@ -5651,7 +5651,15 @@ class xs extends Phaser.Scene {
       fontFamily: "Arial"
     }).setOrigin(1, 1).setScrollFactor(0).setDepth(30).setAlpha(0.3);
     this._tryMeImg = this.add.image(0, 182.5, "GJ_WebSheet", "tryMe_001.png").setScrollFactor(0).setDepth(30);
-    };
+    this._downloadBtns = [];
+    const _0x4fc67f = [{
+      key: "downloadSteam_001",
+      url: "https://github.com/web-dashers/web-dashers.github.io"
+    },
+    {
+      key: "downloadApple_001",
+      url: "https://discord.gg/TfEzAVWPSJ"
+    }];
     for (let _0xfeaf5c = 0; _0xfeaf5c < _0x4fc67f.length; _0xfeaf5c++) {
       const _0x1ce2a6 = _0x4fc67f[_0xfeaf5c];
       const _0x6bf69f = 1 / 1.5;
