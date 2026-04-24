@@ -7699,7 +7699,7 @@ this._escKey.on("down", () => {
     bounceContainer.add(closeBtn);
     this._expandHitArea(closeBtn, 2);
     this._makeBouncyButton(closeBtn, 0.8, () => this._closeUpdateLogPopup());
-    const title = this.add.bitmapText(0, -124, "bigFont", "BETA (EXPECT BUGS)", 30).setOrigin(0.5, 0.5).setTint(0xff6666);
+    const title = this.add.bitmapText(0, -124, "bigFont", " ", 30).setOrigin(0.5, 0.5).setTint(0xff6666);
     bounceContainer.add(title);
     const scrollAreaW = 420;
     const scrollAreaH = 230;
@@ -7718,7 +7718,7 @@ this._escKey.on("down", () => {
       0xff00ff - pink dev entries
     */
     const updateEntries = [
-      { text: "Update Log", scale: 0.85, font: "goldFont" },
+      { text: "To SLVRgdps!", scale: 0.85, font: "goldFont" },
       { text: "Online levels - BETA", scale: 0.65 },
       { text: "Practice Mode - BETA", scale: 0.65 },
       { text: "THESE 2 CAN BE VERY BUGGY.", scale: 0.65, color: 0xff6666 },
