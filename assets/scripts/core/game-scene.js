@@ -5486,14 +5486,14 @@ _buildSettingsPopup() {
     
     const creditsEntries = [
       { text: "Made by RobTop Games", scale: 0.8, font: "goldFont" },
-      { text: "Modded by:", scale: 0.9, font: "bigFont" },
-      { text: "breadbb, PinkDev, rohanis0000,", scale: 0.7, font: "goldFont" },
-      { text: "bog, Lasokar, AntiMatter,", scale: 0.7, font: "goldFont" },
-      { text: "arbstro, and aloaf", scale: 0.7, font: "goldFont" },
-      { text: "Contributors:", scale: 0.9, font: "bigFont" },
-      { text: "t0nchi7, Itzar, zainojdaf,", scale: 0.7, font: "goldFont" },
-      { text: "Ameth7st, and CoraBitz", scale: 0.7, font: "goldFont" },
-      { text: "we love you cora <3", scale: 0.4, font: "bigFont" },
+      { text: "Full credit to", scale: 0.9, font: "bigFont" },
+      { text: "The Breadmod Team", scale: 0.7, font: "goldFont" },
+      { text: "for 99% of the code.", scale: 0.7, font: "goldFont" },
+      { text: "Ran by Silver,", scale: 0.7, font: "goldFont" },
+      { text: "And contributed by", scale: 0.9, font: "bigFont" },
+      { text: "the Silver Clan team.", scale: 0.7, font: "goldFont" },
+      { text: "Join the discord at", scale: 0.7, font: "goldFont" },
+      { text: "discord.gg/jt9bB59BPu", scale: 0.4, font: "bigFont" },
       { text: "© 2026 RobTop Games. All rights reserved.", scale: 0.4, font: "Arial", color: 0x000000 },
     ]; 
     let yPos = 0;
